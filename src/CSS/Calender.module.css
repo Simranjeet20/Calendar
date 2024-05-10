@@ -1,0 +1,59 @@
+body{
+  background-image: url("../assets/image/cn2.jpg");
+  /* background-size: 200vh 100vh; */
+  /* background-image: linear-gradient(to top, white , rgb(137, 137, 139)); */
+  /* background-position: rem; */
+  background-repeat: no-repeat;       
+  height: 100vh;
+  
+}
+.calendarContainer {
+    display: flex;
+    align-items: center;
+    width: 110vh;
+    font-family: Arial, sans-serif;
+    border: none;
+    padding: 3vh;
+    margin-top: -4vh;
+    /* border-radius: 5px; */
+    margin-left: 80vh;
+  }
+  
+  .calendar {
+    flex: 1;
+    overflow: auto;
+    margin: 0 20px;
+  }
+  
+  .button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .tableWrapper {
+    overflow-x: auto;
+  }
+  
+  .calendarTable {
+    width: 100%;
+  }
+  
+  .currentDate {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .scrollable {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 50vh;
+  }
+  

@@ -1,0 +1,59 @@
+.body{
+    background-image: url("../assets/image/cn4.jpg");
+    /* background-size: 200vh 100vh; */
+    /* background-image: linear-gradient(to top, white , rgb(137, 137, 139)); */
+    background-position: 6rem;
+    background-repeat: no-repeat;       
+    height: 100vh;
+    background-color: white;
+
+ }
+
+ 
+/* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .body {
+        background-size: 400px; /* Auto size for smaller screens */
+        /* background-position: 2rem; Adjust position for smaller screens */
+        /* background-position-y: 5rem ; */
+    }
+}
+.title{
+ position:relative;
+ margin-top: 90px;
+ margin-left: 425px;
+}
+@media only screen and (max-width: 768px) {
+    .title {
+        width: 400px;
+        margin-top: 40vh;
+       margin-left: 70px;
+    }
+}
+.title1{
+    position:relative;
+    margin-top: 10px;
+    height: 15vh;
+    margin-left: 90vh;
+   }
+   @media only screen and (max-width: 768px) {
+       .title1 {
+        height: 10vh;
+           /* width: 400px; */
+           /* margin-top: 40vh; */
+          margin-left: 70px;
+       }
+   }
+   
+.button{
+    position:relative;
+    margin-top: -150px;
+    margin-left: 120vh;
+   }
+   @media only screen and (max-width: 768px) {
+       .button {
+           width: 400px;
+           margin-top: 1vh;
+          margin-left: 70px;
+       }
+   }
